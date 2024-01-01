@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import * as jwt from "jsonwebtoken";
-const SECRET_TOKEN = "aabbaaabbbasssassssfffasa";
+const SECRET_TOKEN = "aabbaaabbbasssassddssfffasa";
 const TOKEN_HEADERS = "auth";
 export interface IPayload {
   _id: string;
